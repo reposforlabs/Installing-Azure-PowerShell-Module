@@ -1,6 +1,4 @@
-## ✅ Step-by-Step Guide
-
-### **1. Open Windows PowerShell as Administrator**
+### ✅ **Open Windows PowerShell as Administrator**
 
 -   Press `Windows + S`, type **PowerShell**.
     
@@ -9,7 +7,7 @@
 
 ----------
 
-### **2. Install the PowerShellGet Module (if needed)**
+### ✅ **Install the PowerShellGet Module (if needed)**
 
 Before installing Azure PowerShell, ensure you have an updated version of PowerShellGet.
 
@@ -17,7 +15,7 @@ Before installing Azure PowerShell, ensure you have an updated version of PowerS
 
 ----------
 
-### **3. Install Azure PowerShell Module**
+### ✅ **Install Azure PowerShell Module**
 
 Run the following command to install the Az module (the recommended Azure PowerShell module):
 
@@ -28,7 +26,7 @@ Run the following command to install the Az module (the recommended Azure PowerS
 
 ----------
 
-### **4. Confirm the Installation**
+### ✅ **Confirm the Installation**
 
 After installation, you can import the module and check if it's working:
 
@@ -37,7 +35,7 @@ After installation, you can import the module and check if it's working:
 
 ----------
 
-### **5. Sign in to Azure**
+### ✅ **Sign in to Azure**
 
 Use the following command to log in:
 
