@@ -60,6 +60,14 @@ Connect-AzAccount
 ```
 
 ----------
+### ✅  **Sign in to Azure**
+
+Use the following command to log in:
+
+``` PowerShell
+Connect-AzAccount
+
+----------
 
 ### 🔁 To Exit PowerShell:
 
