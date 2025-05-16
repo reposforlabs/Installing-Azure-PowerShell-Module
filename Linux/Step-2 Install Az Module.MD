@@ -1,38 +1,3 @@
-### ✅ Install Prerequisites
-
-Open your terminal and run:
-
-``` bash
-sudo apt update
-sudo apt install -y wget apt-transport-https software-properties-common
-```
-
-----------
-
-### ✅ Import Microsoft GPG Key and Repository
-
-``` bash
-wget -q https://packages.microsoft.com/config/ubuntu/$(lsb_release -rs)/packages-microsoft-prod.deb
-sudo dpkg -i packages-microsoft-prod.deb
-```
-
-----------
-
-### ✅ Install PowerShell
-
-``` bash
-sudo apt update
-sudo apt install -y powershell
-```
-
-After installation, start PowerShell by running:
-
-``` bash
-pwsh
-``` 
-
-----------
-
 ### ✅ Install the Azure PowerShell Module
 
 Once in PowerShell (`pwsh` prompt):
