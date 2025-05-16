@@ -8,7 +8,7 @@
     
 
 ----------
-## ✅ 2A. **Check if TLS 1.2 is enabled in PowerShell session**
+## ✅ 2. **Check if TLS 1.2 is enabled in PowerShell session**
 
     [Net.ServicePointManager]::SecurityProtocol 
 
