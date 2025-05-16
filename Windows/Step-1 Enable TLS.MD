@@ -1,14 +1,6 @@
-## ✅ Update PowerShellGet
-
-1. **Run PowerShell as Administrator**
-
-   Press  `Windows + S`, search  **PowerShell**
-    
--   Right-click →  **Run as administrator**
-    
 
 ----------
-## ✅ 2. **Check if TLS 1.2 is enabled in PowerShell session**
+## ✅ 1. **Check if TLS 1.2 is enabled in PowerShell session**
 
     [Net.ServicePointManager]::SecurityProtocol 
 
@@ -22,7 +14,7 @@ If the output includes `Tls12`, it means **TLS 1.2 is enabled**.
 
 ----------
 
-## ✅ 3. **Enable TLS 1.2**
+## ✅ 2. **Enable TLS 1.2**
 
     [Net.ServicePointManager]::SecurityProtocol = [Net.ServicePointManager]::SecurityProtocol -bor [Net.SecurityProtocolType]::Tls12
 
