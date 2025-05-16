@@ -22,7 +22,7 @@ If the output includes `Tls12`, it means **TLS 1.2 is enabled**.
 
 ----------
 
-## 3. **Enable TLS 1.2**
+## ✅ 3. **Enable TLS 1.2**
 
     [Net.ServicePointManager]::SecurityProtocol = [Net.ServicePointManager]::SecurityProtocol -bor [Net.SecurityProtocolType]::Tls12
 
