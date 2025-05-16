@@ -1,6 +1,4 @@
-## ✅ Update PowerShellGet
-
-### 1. **Run PowerShell as Administrator**
+### ✅ **Run PowerShell as Administrator**
 
 -   Press `Windows + S`, search **PowerShell**
     
@@ -9,13 +7,13 @@
 
 ----------
 
-### 2. **Check Current Version of PowerShellGet**
+### ✅ **Check Current Version of PowerShellGet**
 
     Get-Module -Name PowerShellGet -ListAvailable 
 
 ----------
 
-### 3. **Install/Update to Latest PowerShellGet**
+### ✅ **Install/Update to Latest PowerShellGet**
 
     Install-Module -Name PowerShellGet -Force -AllowClobber 
 
@@ -24,6 +22,6 @@
 
 ----------
 
-### 4. **Restart PowerShell**
+### ✅ **Restart PowerShell**
 
 Once updated, **restart your PowerShell session** to start using the latest version.
